@@ -9,6 +9,6 @@ export const ENV: { database: TypeOrmModuleOptions } = {
       password: '',
       database: 'teste_bank',
       autoLoadEntities: true,
-      synchronize: true, // Não use em produção
+      synchronize: false, 
   },
 };
