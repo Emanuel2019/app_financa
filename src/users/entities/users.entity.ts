@@ -10,7 +10,6 @@ export class User {
   username: string;
   @Column({ unique: true })
   email: string;
-  @Exclude()
   @Column()
   password: string;
   @Column({ type: 'timestamp', default: () => 'CURRENT_TIMESTAMP' })
